@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        body {
+            background-Image: url("maxresdefault.jpg");
+        }
+    </style>
+</head>
+<html>
+
+<body>
+    <h1>LoginPage</h1>
+
+    <div>
+        <a href="LoginPage.HTML">loginPage</a>
+        <a href="ProductListPage.HTML">ProductListPage</a>
+        <a href="RegistrationPage.HTML">RegistrationPage</a>
+        <a href="UserProfile.HTML">UserProfile</a>
+    </div>
+    <br>
+    <form action="UserProfile.HTML">
+
+        <div><label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+        </div>
+
+        <div><label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        </div>
+
+        <button type="submit">Login</button>
+        <button type="reset">Cancle</button>
+        <button onclick="window.location.href = 'RegistrationPage.HTML';">SignUp</button>
+    </form>
+</body>
+
+</html>
